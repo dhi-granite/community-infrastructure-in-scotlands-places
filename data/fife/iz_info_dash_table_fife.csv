@@ -1,0 +1,105 @@
+Community,Mean SIMD Decile,Female life expectancy,Male life expectancy,Businesses per 1000 people,Local charities per 1000 people,Community spaces per 1000 people
+Kincardine,6,79.0,76.0,30.0,1.28,0.64
+Oakley Comrie and Blairhall,4,80.0,77.0,20.0,2.26,1.01
+Saline and Gowkhall,6,81.0,78.0,45.0,1.91,0.82
+Valleyfield Culross and Torryburn,5,83.0,76.0,27.0,3.27,1.36
+Cairneyhill and Crombie,8,81.0,82.0,23.0,2.45,0.7
+Crossford Charlestown and Limekilns,9,86.0,83.0,33.0,3.28,0.47
+Dunfermline Milesmark and Wellwood,7,94.0,84.0,20.0,1.62,0.0
+Dunfermline Baldridgeburn,3,79.0,72.0,29.0,2.19,0.55
+Dunfermline Headwell,5,80.0,77.0,21.0,2.39,0.0
+Dunfermline Central,6,82.0,81.0,173.0,5.75,1.28
+Dunfermline Brucefield,5,83.0,79.0,17.0,1.51,0.0
+Dunfermline Garvock Hill,10,85.0,82.0,20.0,4.0,0.0
+Dunfermline Bellyeoman and Townhill,7,81.0,79.0,21.0,0.95,0.95
+Dunfermline Duloch North and Lynebank,9,82.0,77.0,15.0,1.79,0.0
+Dunfermline Touch and Woodmill,2,80.0,71.0,14.0,1.38,0.35
+Dunfermline Abbeyview North,2,77.0,72.0,17.0,1.3,0.0
+Dunfermline Abbeyview South,5,81.0,76.0,11.0,0.71,0.0
+Dunfermline Duloch South,10,82.0,77.0,26.0,1.76,0.5
+Dunfermline Masterton,10,82.0,77.0,19.0,2.29,0.0
+Dunfermline Pitcorthie East,10,87.0,85.0,62.0,5.26,0.28
+Dunfermline Pitcorthie West,9,85.0,80.0,46.0,2.39,0.4
+Rosyth North,6,84.0,77.0,20.0,1.33,0.66
+Rosyth East,5,80.0,76.0,18.0,1.97,0.98
+Rosyth Central,4,80.0,78.0,16.0,0.29,0.0
+Rosyth South,6,80.0,77.0,40.0,2.05,0.0
+North Queensferry and Inverkeithing West,7,83.0,78.0,43.0,1.93,0.32
+Inverkeithing East,5,79.0,77.0,25.0,1.07,1.07
+Dalgety Bay West and Hillend,10,82.0,77.0,29.0,6.24,1.17
+Dalgety Bay Central,10,85.0,81.0,26.0,2.76,0.46
+Dalgety Bay East,9,83.0,86.0,144.0,1.18,0.0
+Crossgates and Halbeath,6,81.0,78.0,46.0,1.14,0.28
+Hill of Beath and Kingseat,3,75.0,75.0,18.0,0.29,0.29
+Cowdenbeath South,2,81.0,74.0,31.0,0.33,0.98
+Cowdenbeath North,5,78.0,75.0,33.0,1.78,0.4
+Kelty West,3,78.0,77.0,13.0,0.75,0.0
+Kelty East,5,79.0,76.0,19.0,0.76,0.51
+Lochore and Crosshill,2,78.0,72.0,18.0,1.79,0.0
+Ballingry,2,76.0,74.0,12.0,0.34,0.34
+Cardenden,4,79.0,78.0,24.0,1.26,0.63
+Lochgelly East,4,79.0,79.0,27.0,0.68,0.23
+Lochgelly West and Lumphinnans,2,81.0,73.0,16.0,1.9,0.63
+Aberdour and Auchtertool,6,80.0,78.0,44.0,3.85,0.82
+Burntisland West,5,83.0,78.0,33.0,2.17,1.21
+Burntisland East,7,81.0,80.0,14.0,4.26,0.39
+Kinghorn,7,84.0,76.0,22.0,3.99,0.36
+Kirkcaldy Linktown & Seafield,4,80.0,73.0,24.0,1.76,0.22
+Kirkcaldy Central,6,81.0,75.0,126.0,11.13,1.5
+Kirkcaldy Bennochy East,5,80.0,75.0,28.0,1.72,0.0
+Kirkcaldy Bennochy West,5,82.0,78.0,11.0,1.4,1.05
+Kirkcaldy Raith,9,84.0,85.0,23.0,3.12,0.0
+Kirkcaldy Newliston and Redcraigs,6,85.0,79.0,10.0,1.71,0.34
+Kirkcaldy Templehall West,3,79.0,73.0,17.0,0.99,1.32
+Kirkcaldy Templehall East,2,79.0,75.0,12.0,1.47,0.0
+Kirkcaldy Dunnikier,9,94.0,81.0,13.0,1.25,0.31
+Kirkcaldy Chapel,6,82.0,79.0,33.0,1.65,0.18
+Kirkcaldy Hayfield and Smeaton,2,77.0,66.0,30.0,0.8,0.54
+Kirkcaldy Pathhead,6,85.0,77.0,37.0,3.99,0.67
+Kirkcaldy Gallatown and Sinclairtown,2,77.0,69.0,98.0,1.86,0.7
+Dysart,3,80.0,75.0,21.0,2.96,1.07
+Wemyss,4,82.0,74.0,17.0,0.61,1.22
+Thornton and Kinglassie,4,80.0,77.0,35.0,1.44,0.72
+Leslie and Newcastle,5,82.0,75.0,25.0,1.94,0.48
+Glenrothes Macedonia and Tanshall,2,80.0,74.0,10.0,1.19,0.0
+Glenrothes South Parks,5,82.0,77.0,18.0,1.38,0.0
+Glenrothes Caskieberran and Rimbleton,4,81.0,77.0,24.0,2.05,0.23
+Glenrothes Auchmuty,2,77.0,73.0,66.0,3.05,0.92
+Glenrothes Stenton and Finglassie,5,84.0,79.0,83.0,2.97,0.89
+Glenrothes Pitteuchar,5,82.0,77.0,41.0,1.81,0.4
+Glenrothes Woodside,4,78.0,72.0,15.0,1.85,0.37
+Glenrothes Balgeddie and Town Park,9,86.0,83.0,22.0,3.6,0.0
+Glenrothes Collydean,2,82.0,75.0,9.0,1.81,0.45
+Glenrothes Cadham and Pitcoudie,2,79.0,77.0,17.0,1.0,1.49
+Glenrothes Balfarg Pitcairn and Coul,6,85.0,79.0,13.0,2.19,0.0
+Markinch and Star,7,81.0,79.0,22.0,2.47,0.45
+Windygates and Coaltown,7,84.0,80.0,29.0,2.12,0.61
+"Buckhaven, Denbeath and Muiredge",2,77.0,74.0,16.0,1.53,0.44
+Methil Methilhill,2,75.0,75.0,10.0,0.9,0.22
+Methil West,1,75.0,67.0,18.0,1.22,1.22
+Methil East,2,75.0,72.0,26.0,1.16,0.29
+Leven East,4,76.0,70.0,73.0,4.33,1.0
+Leven West,4,78.0,78.0,19.0,1.08,0.0
+Leven North,5,80.0,77.0,15.0,2.69,0.38
+Largo,7,85.0,82.0,41.0,5.76,0.68
+Kennoway and Bonnybank,3,82.0,76.0,20.0,1.29,0.74
+Kettle and Ladybank,6,83.0,80.0,41.0,3.85,1.2
+Falkland and Freuchie,8,85.0,81.0,40.0,3.56,0.79
+Auchtermuchty and Gateside,6,82.0,80.0,37.0,5.3,1.69
+Newburgh,6,85.0,77.0,39.0,4.78,1.02
+Cupar West and Springfield,7,83.0,79.0,31.0,1.46,0.24
+Cupar Central,4,77.0,75.0,63.0,5.36,1.26
+Cupar East,8,84.0,80.0,42.0,4.68,0.78
+Dairsie Ceres and Dunino,8,86.0,85.0,57.0,6.22,1.38
+Elie Colinsburgh and Largoward,6,86.0,81.0,55.0,9.22,2.3
+St Monans and Pittenweem,6,83.0,73.0,51.0,6.02,1.13
+Anstruther,6,82.0,78.0,48.0,6.04,1.63
+Crail and Boarhills,7,85.0,81.0,52.0,7.64,0.8
+St Andrews South East,7,83.0,75.0,16.0,1.72,0.0
+St Andrews Central,9,85.0,79.0,43.0,4.26,0.79
+St Andrews South West,10,84.0,84.0,18.0,3.67,0.0
+St Andrews North and Strathkinness,9,83.0,82.0,32.0,2.33,0.0
+Leuchars and Guardbridge,8,85.0,82.0,17.0,1.43,0.24
+Balmullo and Gauldry,8,86.0,82.0,46.0,3.55,0.0
+Tayport,6,82.0,78.0,21.0,4.0,1.33
+Newport and Wormit,9,85.0,82.0,25.0,2.62,1.43
