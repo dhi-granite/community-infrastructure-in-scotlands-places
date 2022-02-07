@@ -144,7 +144,7 @@ def display_page(pathname):
         return west_lothian.layout
 
     else:
-        return '404'
+        return '404 not found'
 
 if __name__ == '__main__':
     app.run_server(debug=True)
