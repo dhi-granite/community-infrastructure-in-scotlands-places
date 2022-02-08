@@ -19,14 +19,14 @@ charities_decile = pd.read_csv("data/aberdeen_city/charity_decile_aberdeen_city.
 ccch_decile = pd.read_csv("data/aberdeen_city/ccch_decile_aberdeen_city.csv")
 
 iz_info = iz_info.sort_values("Community")
-iz_info_wanted_cols = ["Community", "Mean SIMD Decile", "Female life expectancy", "Male life expectancy", "Businesses per 1000 people", "Local charities per 1000 people"]
+iz_info_wanted_cols = ["Community", "Mean SIMD Decile", "Female life expectancy", "Male life expectancy", "Businesses per 1000 people", "Local charities per 1000 people", "Community spaces per 1000 people"]
 
 
 summary_table = go.Figure(data=[go.Table(
     header=dict(values=iz_info_wanted_cols,
                 fill_color='lightgray',
                 align='left'),
-    cells=dict(values=[iz_info["Community"], iz_info["Mean SIMD Decile"], iz_info["Female life expectancy"], iz_info["Male life expectancy"], iz_info["Businesses per 1000 people"], iz_info["Local charities per 1000 people"]],
+    cells=dict(values=[iz_info["Community"], iz_info["Mean SIMD Decile"], iz_info["Female life expectancy"], iz_info["Male life expectancy"], iz_info["Businesses per 1000 people"], iz_info["Local charities per 1000 people"], iz_info["Community spaces per 1000 people"]],
                fill_color='#DBF1FC',
                align='left')),
     
