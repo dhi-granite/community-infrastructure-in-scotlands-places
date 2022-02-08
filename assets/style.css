@@ -1,4 +1,7 @@
 body {
-    /* color: #063A47 */
     color: #116978
+}
+
+#iz_info_table {
+    height: 700px;
 }

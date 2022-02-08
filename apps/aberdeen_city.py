@@ -5,11 +5,9 @@ import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
-from dash import Input, Output
 from app import app
 
-font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap", rel="stylesheet")
-external_stylesheets=[dbc.themes.BOOTSTRAP, font]
+external_stylesheets=[dbc.themes.BOOTSTRAP]
 
 iz_info = pd.read_csv("data/aberdeen_city/iz_info_aberdeen_city.csv")
 shs_mao = pd.read_csv("data/aberdeen_city/mao_shs_aberdeen_city.csv")
@@ -27,8 +25,7 @@ summary_table = go.Figure(data=[go.Table(
                 align='left'),
     cells=dict(values=[iz_info["Community"], iz_info["Mean SIMD Decile"], iz_info["Female life expectancy"], iz_info["Male life expectancy"], iz_info["Businesses per 1000 people"], iz_info["Local charities per 1000 people"], iz_info["Community spaces per 1000 people"]],
                fill_color='#DBF1FC',
-               align='left')),
-    
+               align='left'))
 ])
 
  

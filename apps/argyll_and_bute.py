@@ -5,11 +5,9 @@ import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
-from dash import Input, Output
 from app import app
 
-font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap", rel="stylesheet")
-external_stylesheets=[dbc.themes.BOOTSTRAP, font]
+external_stylesheets=[dbc.themes.BOOTSTRAP]
 
 iz_info = pd.read_csv("data/argyll_and_bute/iz_info_argyll_and_bute.csv")
 shs_mao = pd.read_csv("data/argyll_and_bute/mao_shs_argyll_and_bute.csv")
