@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/south_lanarkshire/iz_info_south_lanarkshire.csv")
-iz_info_table = pd.read_csv("data/south_lanarkshire/iz_info_dash_table_south_lanarkshire.csv")
 shs_mao = pd.read_csv("data/south_lanarkshire/mao_shs_south_lanarkshire.csv")
 businesses_decile = pd.read_csv("data/south_lanarkshire/businesses_decile_south_lanarkshire.csv")
 charities_decile = pd.read_csv("data/south_lanarkshire/charity_decile_south_lanarkshire.csv")

@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/fife/iz_info_fife.csv")
-iz_info_table = pd.read_csv("data/fife/iz_info_dash_table_fife.csv")
 shs_mao = pd.read_csv("data/fife/mao_shs_fife.csv")
 businesses_decile = pd.read_csv("data/fife/businesses_decile_fife.csv")
 charities_decile = pd.read_csv("data/fife/charity_decile_fife.csv")

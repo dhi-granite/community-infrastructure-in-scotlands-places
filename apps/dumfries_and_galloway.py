@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/dumfries_and_galloway/iz_info_dumfries_and_galloway.csv")
-iz_info_table = pd.read_csv("data/dumfries_and_galloway/iz_info_dash_table_dumfries_and_galloway.csv")
 shs_mao = pd.read_csv("data/dumfries_and_galloway/mao_shs_dumfries_and_galloway.csv")
 businesses_decile = pd.read_csv("data/dumfries_and_galloway/businesses_decile_dumfries_and_galloway.csv")
 charities_decile = pd.read_csv("data/dumfries_and_galloway/charity_decile_dumfries_and_galloway.csv")

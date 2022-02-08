@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/east_dunbartonshire/iz_info_east_dunbartonshire.csv")
-iz_info_table = pd.read_csv("data/east_dunbartonshire/iz_info_dash_table_east_dunbartonshire.csv")
 shs_mao = pd.read_csv("data/east_dunbartonshire/mao_shs_east_dunbartonshire.csv")
 businesses_decile = pd.read_csv("data/east_dunbartonshire/businesses_decile_east_dunbartonshire.csv")
 charities_decile = pd.read_csv("data/east_dunbartonshire/charity_decile_east_dunbartonshire.csv")

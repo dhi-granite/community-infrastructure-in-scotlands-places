@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/na_h-eileanan_siar/iz_info_na_h-eileanan_siar.csv")
-iz_info_table = pd.read_csv("data/na_h-eileanan_siar/iz_info_dash_table_na_h-eileanan_siar.csv")
 shs_mao = pd.read_csv("data/na_h-eileanan_siar/mao_shs_na_h-eileanan_siar.csv")
 businesses_decile = pd.read_csv("data/na_h-eileanan_siar/businesses_decile_na_h-eileanan_siar.csv")
 charities_decile = pd.read_csv("data/na_h-eileanan_siar/charity_decile_na_h-eileanan_siar.csv")

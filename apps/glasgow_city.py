@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/glasgow_city/iz_info_glasgow_city.csv")
-iz_info_table = pd.read_csv("data/glasgow_city/iz_info_dash_table_glasgow_city.csv")
 shs_mao = pd.read_csv("data/glasgow_city/mao_shs_glasgow_city.csv")
 businesses_decile = pd.read_csv("data/glasgow_city/businesses_decile_glasgow_city.csv")
 charities_decile = pd.read_csv("data/glasgow_city/charity_decile_glasgow_city.csv")

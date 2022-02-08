@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/moray/iz_info_moray.csv")
-iz_info_table = pd.read_csv("data/moray/iz_info_dash_table_moray.csv")
 shs_mao = pd.read_csv("data/moray/mao_shs_moray.csv")
 businesses_decile = pd.read_csv("data/moray/businesses_decile_moray.csv")
 charities_decile = pd.read_csv("data/moray/charity_decile_moray.csv")

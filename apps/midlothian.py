@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/midlothian/iz_info_midlothian.csv")
-iz_info_table = pd.read_csv("data/midlothian/iz_info_dash_table_midlothian.csv")
 shs_mao = pd.read_csv("data/midlothian/mao_shs_midlothian.csv")
 businesses_decile = pd.read_csv("data/midlothian/businesses_decile_midlothian.csv")
 charities_decile = pd.read_csv("data/midlothian/charity_decile_midlothian.csv")

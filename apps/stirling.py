@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/stirling/iz_info_stirling.csv")
-iz_info_table = pd.read_csv("data/stirling/iz_info_dash_table_stirling.csv")
 shs_mao = pd.read_csv("data/stirling/mao_shs_stirling.csv")
 businesses_decile = pd.read_csv("data/stirling/businesses_decile_stirling.csv")
 charities_decile = pd.read_csv("data/stirling/charity_decile_stirling.csv")

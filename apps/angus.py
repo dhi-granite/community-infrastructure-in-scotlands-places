@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/angus/iz_info_angus.csv")
-iz_info_table = pd.read_csv("data/angus/iz_info_dash_table_angus.csv")
 shs_mao = pd.read_csv("data/angus/mao_shs_angus.csv")
 businesses_decile = pd.read_csv("data/angus/businesses_decile_angus.csv")
 charities_decile = pd.read_csv("data/angus/charity_decile_angus.csv")

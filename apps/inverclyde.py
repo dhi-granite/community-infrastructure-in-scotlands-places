@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/inverclyde/iz_info_inverclyde.csv")
-iz_info_table = pd.read_csv("data/inverclyde/iz_info_dash_table_inverclyde.csv")
 shs_mao = pd.read_csv("data/inverclyde/mao_shs_inverclyde.csv")
 businesses_decile = pd.read_csv("data/inverclyde/businesses_decile_inverclyde.csv")
 charities_decile = pd.read_csv("data/inverclyde/charity_decile_inverclyde.csv")

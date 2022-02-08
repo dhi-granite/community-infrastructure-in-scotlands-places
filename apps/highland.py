@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/highland/iz_info_highland.csv")
-iz_info_table = pd.read_csv("data/highland/iz_info_dash_table_highland.csv")
 shs_mao = pd.read_csv("data/highland/mao_shs_highland.csv")
 businesses_decile = pd.read_csv("data/highland/businesses_decile_highland.csv")
 charities_decile = pd.read_csv("data/highland/charity_decile_highland.csv")

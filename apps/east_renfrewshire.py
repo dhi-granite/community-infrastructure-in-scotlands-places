@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/east_renfrewshire/iz_info_east_renfrewshire.csv")
-iz_info_table = pd.read_csv("data/east_renfrewshire/iz_info_dash_table_east_renfrewshire.csv")
 shs_mao = pd.read_csv("data/east_renfrewshire/mao_shs_east_renfrewshire.csv")
 businesses_decile = pd.read_csv("data/east_renfrewshire/businesses_decile_east_renfrewshire.csv")
 charities_decile = pd.read_csv("data/east_renfrewshire/charity_decile_east_renfrewshire.csv")

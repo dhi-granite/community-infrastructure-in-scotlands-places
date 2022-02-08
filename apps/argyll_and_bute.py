@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/argyll_and_bute/iz_info_argyll_and_bute.csv")
-iz_info_table = pd.read_csv("data/argyll_and_bute/iz_info_dash_table_argyll_and_bute.csv")
 shs_mao = pd.read_csv("data/argyll_and_bute/mao_shs_argyll_and_bute.csv")
 businesses_decile = pd.read_csv("data/argyll_and_bute/businesses_decile_argyll_and_bute.csv")
 charities_decile = pd.read_csv("data/argyll_and_bute/charity_decile_argyll_and_bute.csv")

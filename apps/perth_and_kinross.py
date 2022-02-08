@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/perth_and_kinross/iz_info_perth_and_kinross.csv")
-iz_info_table = pd.read_csv("data/perth_and_kinross/iz_info_dash_table_perth_and_kinross.csv")
 shs_mao = pd.read_csv("data/perth_and_kinross/mao_shs_perth_and_kinross.csv")
 businesses_decile = pd.read_csv("data/perth_and_kinross/businesses_decile_perth_and_kinross.csv")
 charities_decile = pd.read_csv("data/perth_and_kinross/charity_decile_perth_and_kinross.csv")

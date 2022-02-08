@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/east_ayrshire/iz_info_east_ayrshire.csv")
-iz_info_table = pd.read_csv("data/east_ayrshire/iz_info_dash_table_east_ayrshire.csv")
 shs_mao = pd.read_csv("data/east_ayrshire/mao_shs_east_ayrshire.csv")
 businesses_decile = pd.read_csv("data/east_ayrshire/businesses_decile_east_ayrshire.csv")
 charities_decile = pd.read_csv("data/east_ayrshire/charity_decile_east_ayrshire.csv")

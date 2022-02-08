@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/scottish_borders/iz_info_scottish_borders.csv")
-iz_info_table = pd.read_csv("data/scottish_borders/iz_info_dash_table_scottish_borders.csv")
 shs_mao = pd.read_csv("data/scottish_borders/mao_shs_scottish_borders.csv")
 businesses_decile = pd.read_csv("data/scottish_borders/businesses_decile_scottish_borders.csv")
 charities_decile = pd.read_csv("data/scottish_borders/charity_decile_scottish_borders.csv")

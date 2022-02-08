@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/shetland_islands/iz_info_shetland_islands.csv")
-iz_info_table = pd.read_csv("data/shetland_islands/iz_info_dash_table_shetland_islands.csv")
 shs_mao = pd.read_csv("data/shetland_islands/mao_shs_shetland_islands.csv")
 businesses_decile = pd.read_csv("data/shetland_islands/businesses_decile_shetland_islands.csv")
 charities_decile = pd.read_csv("data/shetland_islands/charity_decile_shetland_islands.csv")

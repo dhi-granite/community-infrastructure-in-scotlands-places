@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/west_lothian/iz_info_west_lothian.csv")
-iz_info_table = pd.read_csv("data/west_lothian/iz_info_dash_table_west_lothian.csv")
 shs_mao = pd.read_csv("data/west_lothian/mao_shs_west_lothian.csv")
 businesses_decile = pd.read_csv("data/west_lothian/businesses_decile_west_lothian.csv")
 charities_decile = pd.read_csv("data/west_lothian/charity_decile_west_lothian.csv")

@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/aberdeenshire/iz_info_aberdeenshire.csv")
-iz_info_table = pd.read_csv("data/aberdeenshire/iz_info_dash_table_aberdeenshire.csv")
 shs_mao = pd.read_csv("data/aberdeenshire/mao_shs_aberdeenshire.csv")
 businesses_decile = pd.read_csv("data/aberdeenshire/businesses_decile_aberdeenshire.csv")
 charities_decile = pd.read_csv("data/aberdeenshire/charity_decile_aberdeenshire.csv")

@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/falkirk/iz_info_falkirk.csv")
-iz_info_table = pd.read_csv("data/falkirk/iz_info_dash_table_falkirk.csv")
 shs_mao = pd.read_csv("data/falkirk/mao_shs_falkirk.csv")
 businesses_decile = pd.read_csv("data/falkirk/businesses_decile_falkirk.csv")
 charities_decile = pd.read_csv("data/falkirk/charity_decile_falkirk.csv")

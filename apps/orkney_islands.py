@@ -12,7 +12,6 @@ font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&displa
 external_stylesheets=[dbc.themes.BOOTSTRAP, font]
 
 iz_info = pd.read_csv("data/orkney_islands/iz_info_orkney_islands.csv")
-iz_info_table = pd.read_csv("data/orkney_islands/iz_info_dash_table_orkney_islands.csv")
 shs_mao = pd.read_csv("data/orkney_islands/mao_shs_orkney_islands.csv")
 businesses_decile = pd.read_csv("data/orkney_islands/businesses_decile_orkney_islands.csv")
 charities_decile = pd.read_csv("data/orkney_islands/charity_decile_orkney_islands.csv")
