@@ -2,11 +2,9 @@ from dash import dcc
 from dash import html
 import pandas as pd
 import plotly.graph_objects as go
-import numpy as np
 import dash_bootstrap_components as dbc
 
-font = html.Link(href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap", rel="stylesheet")
-external_stylesheets=[dbc.themes.BOOTSTRAP, font]
+external_stylesheets=[dbc.themes.BOOTSTRAP]
 
 la_info = pd.read_csv("data/scotland/la_info.csv")
 la_info.rename(columns={"SIMD decile": "Mean SIMD decile", "MAOs per 100k people": "Mutual aid organisations per 100k people"}, inplace=True)
@@ -26,7 +24,7 @@ la_info_table = go.Figure(data=[go.Table(
 layout = dbc.Container(
 
     [
-        html.H3("Scottish Communities - Community Infrastructure"),
+        html.H3("Scottish Communities"),
         html.Hr(),
         html.Div(
             children=[
@@ -38,7 +36,7 @@ layout = dbc.Container(
                             config = {'displayModeBar': False}
                         )
                     ],    
-                style={"width": "100%", "height": "100%"}
+                style={"width": "100%"}
                 )
             ]
         )
