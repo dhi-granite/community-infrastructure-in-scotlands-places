@@ -213,7 +213,11 @@ There was also a significant, moderately positive correlation between businesses
 
 Another finding that came out of this analysis is that there seem to be less charities and businesses in communities defined as more deprived by the SIMD, yet more community spaces in these areas. 
 
+#### Facet plot showing the number of charities per 1000 people versus the number of community spaces per 1000 peoplpe in intermediate zones for each local authority
+
 ![A screenshot of a facet plot which is made up of scatter plots for each local authority. Each scatter plot shows the number of charities per 1000 people plotted against the number of community spaces per 1000 people in each intermediate zone for the local authority depicted.](/assets/images/charities_community_spaces_scatter_plot.png)
+
+#### Facet plot showing the number of charities per 1000 people versus the number of businesses per 1000 peoplpe in intermediate zones for each local authority
 
 ![A screenshot of a facet plot which is made up of scatter plots for each local authority. Each scatter plot shows the number of charities per 1000 people plotted against the number of businesses per 1000 people in each intermediate zone for the local authority depicted.](/assets/images/charities_businesses_scatter_plot.png)
 
