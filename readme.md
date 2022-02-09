@@ -211,8 +211,6 @@ There was a significant, weakly positive correlation between businesses per capi
 
 There was also a significant, moderately positive correlation between businesses per capita and charities per capita (*r* = 0.45, *p* < 0.05).
 
-Another finding that came out of this analysis is that there seem to be less charities and businesses in communities defined as more deprived by the SIMD, yet more community spaces in these areas. 
-
 Below is a screenshot of a facet plot showing the number of charities per 1000 people versus the number of community spaces per 1000 people in intermediate zones for each local authority
 
 ![A screenshot of a facet plot which is made up of scatter plots for each local authority. Each scatter plot shows the number of charities per 1000 people plotted against the number of community spaces per 1000 people in each intermediate zone for the local authority depicted.](/assets/images/charities_community_spaces_scatter_plot.png)
@@ -221,7 +219,15 @@ Here is a screenshot of a facet plot showing the number of charities per 1000 pe
 
 ![A screenshot of a facet plot which is made up of scatter plots for each local authority. Each scatter plot shows the number of charities per 1000 people plotted against the number of businesses per 1000 people in each intermediate zone for the local authority depicted.](/assets/images/charities_businesses_scatter_plot.png)
 
-Here are some key points about the overarching dataset that I created, which contains a variety of information on all intermediate zones in Scotland:
+Another finding that came out of this analysis is that there seem to be less charities and businesses per capita in communities defined as more deprived by the SIMD, yet more community spaces per capita in these areas. 
+
+![A screenshot of a bar plot showing the number of charities per 100,000 people in each SIMD decile, across Scotland](/assets/images/charitiesper100k_by_simd_decile.png)
+
+![A screenshot of a bar plot showing the number of businesses per 100,000 people in each SIMD decile, across Scotland](/assets/images/businessesper100k_by_simd_decile.png)
+
+![A screenshot of a bar plot showing the number of community spaces per 100,000 people in each SIMD decile, across Scotland](/assets/images/community_spacesper100k_by_simd_decile.png)
+
+Below, I outline some key points about the overarching dataset that I created, which contains a variety of information on all intermediate zones in Scotland:
  
 ##### Mean
 - Charities per 1000 people: 2.6
@@ -234,12 +240,74 @@ Here are some key points about the overarching dataset that I created, which con
 - Charities per 1000 people: 28.07 (City Centre West (Aberdeen City))
 - Businesses per 1000 people: 947.0 (City Centre South (Glasgow City))
 - Community spaces per 1000 people: 7.12 (North and East Isles (Shetland Islands))
-- Female life expectancy: 94 (Dumfermline Milesmark and Wellwood (); Kirkcaldy Dunnikier (); Langholm and Eskdale ())
-- Male life expectancy: 88 (Fishcross, Devon Village and Coalsnaughton ())
+- Female life expectancy: 94 (Dumfermline Milesmark and Wellwood (Fife); Kirkcaldy Dunnikier (Fife); Langholm and Eskdale (Dumfries and Galloway))
+- Male life expectancy: 88 (Fishcross, Devon Village and Coalsnaughton (Clackmannanshire))
  
 ##### Minimum
 - Charities per 1000 people: 0.0 (19 intermediate zones)
-- Businesses per 1000 people: 3.0 (Girvan Glendoune ())
+- Businesses per 1000 people: 3.0 (Girvan Glendoune (South Ayrshire))
 - Community spaces per 1000 people: 0.0 (267 intermediate zones)
-- Female life expectancy: 71 (Drumoyne and Shieldhall (); Drumchapel South ())
-- Male life expectancy: 63 (Menzieshill (); Drumoyne and Shieldhall ())
+- Female life expectancy: 71 (Drumoyne and Shieldhall (Glasgow City); Drumchapel South (Glasgow City))
+- Male life expectancy: 63 (Menzieshill (Dundee City); Drumoyne and Shieldhall (Glasgow City))
+
+
+
+# Insert rest of summary here
+
+
+## Data Sources
+
+#### Charity data
+Office for the Scottish Charity Register: © Crown Copyright and database right 2021. Contains information from the Scottish Charity Register supplied by the Office of the Scottish Charity Regulator and licensed under the [Open Government Licence v.3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+ 
+Available [here](https://www.oscr.org.uk/about-charities/search-the-register/charity-register-download/).
+
+#### Postcode data
+Postcode index: © Crown copyright. Data supplied by National Records of Scotland
+ 
+Available [here](https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/scottish-postcode-directory/2021-2).
+
+#### SIMD
+Copyright Scottish Government, contains Ordnance Survey data © Crown copyright and database right 2021. 
+ 
+Available [here](https://simd.scot/#/simd2020/BTTTFTT/9/-4.0000/55.9000/).
+
+#### Data Zone Lookup
+Scottish Government, 2019, licensed under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+Available [here](https://statistics.gov.scot/data/data-zone-lookup).
+
+#### UK Business Counts
+ONS Crown Copyright Reserved [from Nomis on 20 October 2021].
+ 
+Available [here](https://www.nomisweb.co.uk/datasets/idbrlu).
+
+#### Intermediate Zone Boundaries
+Copyright Scottish Government, contains Ordnance Survey data © Crown copyright and database right 2021.
+ 
+Available [here](https://spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/389787c0-697d-4824-9ca9-9ce8cb79d6f5).
+
+#### Life expectancy data
+Contains data from the Scottish Public Health Observatory.
+Available [here](https://scotland.shinyapps.io/ScotPHO_profiles_tool/).
+
+#### Population estimates
+Contains NRS data © Crown copyright and database right 2021.
+
+Available [here](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/2011-based-special-area-population-estimates/small-area-population-estimates).
+
+#### Mutual aid organisations
+This dataset is likely to be partial as it relies on group members/founders putting information about the group onto the website.
+ 
+Available [here](https://mutualaid.wiki/api/group/get).
+
+#### Development trusts
+Available [here](https://dtascot.org.uk/dtas-member-network/a-z-of-members).
+
+#### Scottish Household Survey
+Scottish Government, 2020, licensed under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+ 
+Available [here](https://scotland.shinyapps.io/sg-scottish-household-survey-data-explorer/).
+
+#### Community spaces
+Data collected from Google Maps searches for “community centres”, “village halls”, “community halls”, “leisure centres”, “libraries”, “citizens advice bureau”.
