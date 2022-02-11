@@ -2,7 +2,14 @@
 
 ## Contents
 
-[Introduction](#Introduction)
+- [Introduction](#introduction)
+- [Dashboard](#dashboard)
+- [Running Instructions](#running-instructions)
+- [Version Information](#version-information)
+- [Methods](#methods)
+- [Findings](#findings)
+- [Implications](#implications)
+- [Data Sources](#data-sources)
 
 ## Introduction
 
