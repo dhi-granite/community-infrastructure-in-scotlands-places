@@ -1,5 +1,9 @@
 # Scottish Communities
 
+## Contents
+
+[Introduction](#Introduction)
+
 ## Introduction
 
 This dashboard is part of a project run by the David Hume Institute, in partnership with the William Grant Foundation, with the assistance of many other organisations and individuals across Scotland. The project aims to analyse open data about Scotland’s places in order to better understand how community assets and community infrastructure (such as community meeting spaces, businesses, local charities, mutual aid organisations, and development trusts) benefit the communities that they are located in. These types of asset are often left out of analyses of infrastructural inequalities, but they can provide crucial support to communities.
