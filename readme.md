@@ -2,14 +2,16 @@
 
 ## Contents
 
-[Introduction](#introduction)
-[Dashboard](#dashboard)
-[Running Instructions](#running-instructions)
-[Version Information](#version-information)
-[Methods](#methods)
-[Findings](#findings)
-[Implications](#implications)
-[Data Sources](#data-sources)
+- [Introduction](#introduction)
+- [Dashboard](#dashboard)
+- [Running Instructions](#running-instructions)
+- [Version Information](#version-information)
+- [Methods](#methods)
+- [Findings](#findings)
+- [Implications](#implications)
+- [Data Sources](#data-sources)
+
+There is also a full table of contents in the top left of this document.
 
 ## Introduction
 
