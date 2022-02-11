@@ -45,7 +45,7 @@ This is a screenshot of the summary table. The data comes from the /data/scotlan
 ### Local authority pages
 
 #### Mutual aid organisation and the Scottish Household Survey
-At the top of each local authority page, I have included some figures for the whole local authority. These are the number of mutual aid organisations per 100,000 people, and the percentage of people in the local authority who say that they could rely on someone in their neighbourhood to help them (this percentage comes from the Scottish Household Survey). 
+At the top of each local authority page, I have included some figures for the whole local authority. These are the number of mutual aid organisations per 100,000 people, and the percentage of people in the local authority who say that they could rely on someone in their neighbourhood to help them (this percentage comes from the [Scottish Household Survey](https://scotland.shinyapps.io/sg-scottish-household-survey-data-explorer/)). 
 
 #### Tab 1
 This tab contains a map of the local authority, with information about each intermediate zone that appears when you scroll over an intermediate zone on the map. There are also points plotted for community spaces, charities, development trusts, and mutual aid organisations. Below is the map for the City of Edinburgh, with charities selected, and the intermediate zone information for Balerno and Bonnington Village being displayed. The maps are stored in the assets folder.
