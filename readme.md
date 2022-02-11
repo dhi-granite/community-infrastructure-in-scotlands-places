@@ -6,7 +6,7 @@ This dashboard is part of a project run by the David Hume Institute, in partners
 
 Our key questions of interest were:
 
-- A general question about community assets / infrastructure in Scotland
+- A general exploratory question about community assets / infrastructure in Scotland
 
 
 - Is there a relationship between the number of businesses per capita and the number of charities per capita in an intermediate zone?
@@ -17,7 +17,7 @@ Our key questions of interest were:
 - If so, what is the nature of this relationship?
 - How does the SIMD relate to these three types of community assets?
 
-The dashboard allows us to look at the relationship between Scottish Index of Multiple Deprivation (SIMD) rankings and these community assets/infrastructure on a map as well as in various graphs. The project uses intermediate zones as the boundaries of communities – while this is not always an accurate representation of where community boundaries lie, it is the most granular scale available for a lot of open data.
+The dashboard allows us to look at the relationship between Scottish Index of Multiple Deprivation (SIMD) rankings and these community assets/infrastructure on a map as well as in various graphs. The project uses intermediate zones as the boundaries of communities. [Intermediate zones](https://data.gov.uk/dataset/133d4983-c57d-4ded-bc59-390c962ea280/intermediate-zone-boundaries-2011) are “a statistical geography that sit between data zones and local authorities”. There are 1279 intermediate zones in Scotland, each with a population of 2500 - 6000 residents. While this is not always an accurate representation of where community boundaries lie, it is the most granular scale available for a lot of open data, where privacy concerns can be an issue if areas are smaller.
 
 
 The main findings are that across Scotland
