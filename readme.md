@@ -221,11 +221,11 @@ Here is a screenshot of a facet plot showing the number of charities per 1000 pe
 
 Another finding that came out of this analysis is that there seem to be less charities and businesses per capita in communities defined as more deprived by the SIMD, yet more community spaces per capita in these areas. 
 
-![A screenshot of a bar plot showing the number of charities per 100,000 people in each SIMD decile, across Scotland](/assets/images/charitiesper100k_by_simd_decile.png)
+![A screenshot of a bar plot showing the number of charities per 1000 people in each SIMD decile, across Scotland](/assets/images/scotland_1000_charities.png)
 
-![A screenshot of a bar plot showing the number of businesses per 100,000 people in each SIMD decile, across Scotland](/assets/images/businessesper100k_by_simd_decile.png)
+![A screenshot of a bar plot showing the number of businesses per 1000 people in each SIMD decile, across Scotland](/assets/images/businesses_1000_scotland.png)
 
-![A screenshot of a bar plot showing the number of community spaces per 100,000 people in each SIMD decile, across Scotland](/assets/images/community_spacesper100k_by_simd_decile.png)
+![A screenshot of a bar plot showing the number of community spaces per 1000 people in each SIMD decile, across Scotland](/assets/images/community_spaces_1000_scotland.png)
 
 Below, I outline some key points about the overarching dataset that I created, which contains a variety of information on all intermediate zones in Scotland:
  
