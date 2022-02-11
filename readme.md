@@ -100,7 +100,7 @@ The seventh and final tab contains a scatter plot that shows the relationship be
 - Download the files necessary to run the dashboard on your computer.
     - If you are familiar with git and have it installed on your computer, you can clone the repository by clicking the ‘Code’ button and copying then running the command displayed there in your command line.
     - Otherwise, you can download a zip file of the project by clicking the ‘Code’ button, then selecting ‘Download ZIP’. 
-- Install the dependencies. These are listed below, at the top of the Methods section.
+- Install the dependencies. These are listed below, at the top of the [Methods section](#methods).
 - You should then be able to get the dashboard running locally by navigating to the running the following command in your command line:
 
 ```
