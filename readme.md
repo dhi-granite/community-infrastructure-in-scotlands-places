@@ -57,7 +57,7 @@ This is a screenshot of the summary table. The data comes from the /data/scotlan
 
 ### Local authority pages
 
-#### Mutual aid organisation and the Scottish Household Survey
+#### Mutual aid organisations and the Scottish Household Survey
 At the top of each local authority page, I have included some figures for the whole local authority. These are the number of mutual aid organisations per 100,000 people, and the percentage of people in the local authority who say that they could rely on someone in their neighbourhood to help them (this percentage comes from the [Scottish Household Survey](https://scotland.shinyapps.io/sg-scottish-household-survey-data-explorer/)). 
 
 #### Tab 1
@@ -207,7 +207,7 @@ The function created geodataframes from the community spaces, charities, mutual 
 
 It then added marker clusters and marker layers to the map for the plottable layers, converted the coordinate reference system of the intermediate zone boundary layer to ESPG:27700, and added a highlight function and tooltips to the map for interactivity. The map was then saved at the save location specified in the function call.
 
-### Creating decile tabls for each local authority
+### Creating decile tables for each local authority
 In the /data_generation/table_data file, I defined three functions that find the mean number of businesses, charities and community spaces per SIMD decile in each local authority. The functions took in an intermediate zone information csv file for a local authority, and saved a new csv file with the businesses, charities, or community spaces per 1000 people in each decile of the SIMD.
 
 ### Creating the Scottish Household Survey / Mutual aid organisations dataset
