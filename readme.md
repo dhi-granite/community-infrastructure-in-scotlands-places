@@ -203,7 +203,7 @@ In the shs_mao file I created a dataframe with the number of mutual aid organisa
 ### Dashboard
 All of the above data was incorporated into the dashboard through maps, tables, and graphs.
 
-## Summary
+## Findings
 
 In intermediate zones across Scotland, there was a significant, medium strength positive correlation between charities per capita and community spaces per capita (*r* = 0.55, *p* < 0.05). 
 
@@ -249,6 +249,9 @@ Below, I outline some key points about the overarching dataset that I created, w
 - Community spaces per 1000 people: 0.0 (267 intermediate zones)
 - Female life expectancy: 71 (Drumoyne and Shieldhall (Glasgow City); Drumchapel South (Glasgow City))
 - Male life expectancy: 63 (Menzieshill (Dundee City); Drumoyne and Shieldhall (Glasgow City))
+
+
+## Implications 
 
 Scotland’s diverse landscapes and histories means that Scotland’s communities are also diverse, and have varied needs. Looking at the SIMD in relation to a community can help us to identify those communities that have higher concentrations of the types of deprivation that are measured in it, and therefore, which areas might benefit from specific types of investment. The SIMD is a valuable tool for identifying areas in Scotland where some of the people in these areas would benefit from specific interventions, and it is widely used. However, the SIMD uses the same metrics for the whole of Scotland, so it can mask some of the important differences between Scottish communities and mean that problems are exaggerated or underplayed. 
 
