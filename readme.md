@@ -272,7 +272,7 @@ There are complex reasons for what we see in each community, and only with the i
 
 During the course of the project, we had conversations with many individuals across Scotland, who told us different stories about Scotland’s open data. While the Scottish government provides a useful portal for its open data, a lot of the data that relates to communities and community assets was not at a granular enough level for the purposes of this project, and some of it was out of date. There is also quite a lot of data that would have been useful to this project but is only available to government organisations and educational institutions. For example, most of the local authority websites include a copyright statement that prevents any of their content from being published. 
 
-The David Hume Institute is currently working with Open Data Scotland to produce a policy briefing on open data. If these existing sources of data were made available or more accessible, we could get better insights and make more informed decisions about how to tackle some of the challenges that communities  in Scotland face. 
+The David Hume Institute is currently working with [Open Data Scotland](https://opendata.scot/) to produce a policy briefing on open data. If these existing sources of data were made available or more accessible, we could get better insights and make more informed decisions about how to tackle some of the challenges that communities  in Scotland face. 
 
 ## Data Sources
 
