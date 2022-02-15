@@ -1,5 +1,7 @@
 # Scottish Communities
 
+![David Hume Institute logo](/assets/images/dhi_logo.png)
+
 ## Contents
 
 - [Introduction](#introduction)
@@ -98,7 +100,7 @@ The seventh and final tab contains a scatter plot of the number of charities per
 - Download the files necessary to run the dashboard on your computer.
     - If you are familiar with git and have it installed on your computer, you can clone the repository by clicking the ‘Code’ button and copying then running the command displayed there in your command line.
     - Otherwise, you can download a zip file of the project by clicking the ‘Code’ button and then selecting ‘Download ZIP’.  
-- Install the dependencies. These are listed below, in the [Version Information section](#version-information).
+- Install the dependencies using an installer of your choice. These are listed below, in the [Version Information section](#version-information).
 - You should then be able to get the dashboard running locally by navigating to your command line and running the following command:
 
 ```
