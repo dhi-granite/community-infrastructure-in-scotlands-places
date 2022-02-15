@@ -61,7 +61,7 @@ navbar = dbc.NavbarSimple(
                 label="Local Authorities (H-Z)",
             ),
         ],
-        brand="Scottish Communities",
+        brand="Community Infrastructure in Scotland's Places",
         brand_href="/",
         color="light",
         sticky="top"
