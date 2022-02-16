@@ -26,7 +26,7 @@ Our key questions of interest were:
 - If so, what is the nature of this relationship?
 - Is there a relationship between the number of charities and the number of community spaces in a community?
 - If so, what is the nature of this relationship?
-- How does the Scottish Index of Multiple Deprivation (SIMD)  relate to these types of community infrastructure?
+- How does the Scottish Index of Multiple Deprivation (SIMD) relate to these types of community infrastructure?
 
 The dashboard allows us to look at the relationship between the SIMD and community infrastructure on a map as well as in various graphs. The project uses intermediate zones as the boundaries of communities. [Intermediate zones](https://data.gov.uk/dataset/133d4983-c57d-4ded-bc59-390c962ea280/intermediate-zone-boundaries-2011) are “a statistical geography that sit between data zones and local authorities”. There are 1279 intermediate zones in Scotland, each with a population of 2500 - 6000 residents. While intermediate zone boundaries are not always an accurate representation of where community boundaries lie, they are the most granular scale available for a lot of open data. Privacy concerns can be an issue if areas are smaller, so intermediate zones try to balance accuracy and privacy.
 
@@ -61,7 +61,7 @@ At the top of each local authority page, I have included figures for the whole l
 #### Tab 1
 This tab contains a map of the local authority with information about each intermediate zone. This appears when you scroll over an intermediate zone on the map. There are also points plotted for community spaces, charities, development trusts, and mutual aid organisations. Below is the map for the City of Edinburgh, with charities selected, and the intermediate zone information for Balerno and Bonnington Village being displayed. The maps are stored in the assets folder.
 
-![A screenshot of the first tab for the City of Edinburgh page. There is a map, with options to see the locations of community spaces, charities, development trusts, or mutual aid organisations. The intermediate zone of Balerno and Bonnington Village is highlighted, with information on the intermediate zone displayed in a tooltip. The information is the name of the intermediate zone, the mean SIMD decile, female life expectancy, male life expectancy, businesses per 1000 people, and charities per 1000 people.](/assets/images/tab_one.png)
+![A screenshot of the first tab for the City of Edinburgh page. There is a map, with options to see the locations of community spaces, charities, development trusts, or mutual aid organisations. The intermediate zone of Balerno and Bonnington Village is highlighted, with information on the intermediate zone displayed in a tooltip. The information is the name of the intermediate zone, the mean SIMD decile - 9, female life expectancy - 90, male life expectancy - 85, businesses per 1000 people - 37, and charities per 1000 people - 2.19.](/assets/images/tab_one.png)
 
 #### Tab 2
 The second tab contains a table with a row of information for each intermediate zone in the local authority in alphabetical order. Each row has the columns ‘Community’ or intermediate zone name, ‘Mean SIMD decile’ (the average of the SIMD deciles for the data zones make up the intermediate zone), ‘Female life expectancy’, ‘Male life expectancy’, ‘Businesses per 1000 people’, ‘Local charities per 1000 people’, and ‘Community spaces per 1000 people’. Below is a screenshot of the first part of the table for Inverclyde. 
@@ -71,7 +71,7 @@ The second tab contains a table with a row of information for each intermediate 
 #### Tab 3
 The third tab shows the mean number of charities per 1000 people for each local authority in a bar plot. It is grouped by each SIMD decile within the local authority. Hovering over one of the bars allows you to see:  the SIMD decile, the mean number of charities per 1000 people, and the range (minimum and maximum) for the number of charities per 1000 people in that decile. Below is an example with the fourth SIMD decile in the City of Edinburgh highlighted. 
 
-![A screenshot of the third tab for the City of Edinburgh page. There is a bar plot, with the mean number of charities per 1000 people on the y axis and the SIMD decile of intermediate zones on the x axis. The third decile is highlighted, with a tooltip showing the decile, mean number of charities per 1000 people, and the range for values in that decile.](/assets/images/tab_three.png)
+![A screenshot of the third tab for the City of Edinburgh page. There is a bar plot, with the mean number of charities per 1000 people on the y axis and the SIMD decile of intermediate zones on the x axis. The fourth decile is highlighted, with a tooltip showing the decile, mean number of charities per 1000 people - 1.56, and the range for values in that decile - 0.47 to 3.16.](/assets/images/tab_three.png)
 
 #### Tab 4
 The fourth tab is similar to the third tab, but the number of businesses are measured instead of charities. This is the mean number of businesses per 1000 people in each SIMD decile. Below is an example with the second SIMD decile in the City of Edinburgh highlighted. 
@@ -99,7 +99,7 @@ The seventh and final tab contains a scatter plot of the number of charities per
     - If you are familiar with git and have it installed on your computer, you can clone the repository by clicking the ‘Code’ button and copying then running the command displayed there in your command line.
     - Otherwise, you can download a zip file of the project by clicking the ‘Code’ button and then selecting ‘Download ZIP’.  
 - Install the dependencies. These are listed below, in the [Version Information section](#version-information).
-- You should then be able to get the dashboard running locally by navigating to your command line and running the following command:
+- You should then be able to get the dashboard running locally by navigating to the community-infrastructure-in-scotlands-places directory in your command line and running the following command:
 
 ```
 python3 index.py
@@ -141,7 +141,7 @@ I downloaded the OSCR Charity Register from [here](https://www.oscr.org.uk/about
 I used the Postcode Index from National Records of Scotland (NRS) ([here](https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/scottish-postcode-directory/2021-2)) to remove charities where the “Main Operating Location” listed for the charity was not in the same local authority as the postcode of its head office. Though some charities operating locally as well as in other areas will have been removed during this process, it was the best available approximation for local charities.
  
 #### Mutual aid organisation data
-For mutual aid organisations, I made a request to [this](https://mutualaid.wiki/api/group/get) API endpoint, which returns a json string with all mutual aid organisations in the Mutual Aid Wiki database. This list of organisations contains global organisations, so I took only those with a “location_country” attribute of “GB” into a new list. 
+For mutual aid organisations, I made a request to [this](https://mutualaid.wiki/api/group/get) API, which returns a json string with all mutual aid organisations in the Mutual Aid Wiki database. This list of organisations contains global organisations, so I took only those with a “location_country” attribute of “GB” into a new list. 
 
 The mutual aid organisations had coordinates but not always a full address, so I used the latitude and longitude extremes for Scotland to filter out most of the organisations not in Scotland. I then manually removed any that were missed during the previous step. 
 
@@ -264,15 +264,15 @@ Here are some key points about the data for the whole of Scotland:
 
 ## Implications 
 
-Scotland’s diverse landscapes and histories mean that it’s communities are also diverse, and have varied needs. Looking at the SIMD in relation to  communities can help us to identify those communities that have higher concentrations of the types of deprivation that are measured in the SIMD. This can then help us to uncover   the areas that might benefit from specific types of investment. The SIMD is a valuable tool for identifying areas in Scotland where some of the people in these areas would benefit from specific support, and it is widely used. However, the SIMD uses the same metrics for the whole of Scotland, so it can mask some of the important differences between Scottish communities and result in a one-dimensional portrayal of these communities.
+Scotland’s diverse landscapes and histories mean that it’s communities are also diverse, and have varied needs. Looking at the SIMD in relation to  communities can help us to identify those communities that have higher concentrations of the types of deprivation that are measured in the SIMD. This can then help us to uncover   the areas that might benefit from specific types of investment. The SIMD is a valuable tool for identifying areas in Scotland where some of the people in these areas would benefit from specific support, and it is widely used. However, the SIMD uses the same metrics for the whole of Scotland, so it can mask some of the important differences between Scottish communities and result in an oversimplified portrayal of these communities.
 
 The aim of the project was to look at community assets and infrastructure such as businesses, charities, and community spaces in conjunction with the SIMD. We were interested to know about the relationships between different types of community infrastructure, as well as between community infrastructure and the SIMD. What we found was that there are positive relationships between all three types of community infrastructure that we measured. We also found that there  are more charities and businesses in the middle deciles of the SIMD, but more community spaces in areas identified by the SIMD as the most deprived in Scotland. 
 
 There are complex reasons for what we see in each community, and only with the input of people that live in those communities can we reach the best outcomes. As part of this project, the David Hume Institute has produced community insight documents  for three areas - Campbeltown in Argyll and Bute, Buckhaven in Fife, and Stranraer in Dumfries and Galloway. We chose these communities because we have existing engagement with them through the DHI’s ‘Action Project’, meaning that we can combine findings from the analysis of open data with community voices to get a more complete picture.
 
-During the course of the project, we had conversations with many individuals across Scotland, who told us different stories about Scotland’s open data. While the Scottish government provides a useful portal for its open data, a lot of the data that relates to communities and community assets was not at a granular enough level for the purposes of this project, and some of it was out of date. There is also quite a lot of data that would have been useful to this project but is only available to government organisations and educational institutions. For example, most of the local authority websites include a copyright statement that prevents any of their content from being published. 
+During the course of the project, we had conversations with many individuals across Scotland, who told us different stories about Scotland’s open data. While the Scottish government provides a useful portal for its open data, a lot of the data that relates to communities and community assets was not at a granular enough level for the purposes of this project, and some of it was out of date. There is also quite a lot of data that would have been useful to this project but is only available to government organisations and educational institutions. For example, most of the local authority websites include a copyright statement that prevents any of their content from being published elsewhere. 
 
-The David Hume Institute is currently working with [Open Data Scotland](https://opendata.scot/) to produce a policy briefing on open data. If these existing sources of data were made available or more accessible, we could get better insights and make more informed decisions about how to tackle some of the challenges that communities  in Scotland face. 
+The David Hume Institute is currently working with [Open Data Scotland](https://opendata.scot/) to produce a policy briefing on open data. If these existing sources of data were made available or more accessible, we could get better insights and make more informed decisions about how to tackle some of the challenges that communities in Scotland face. 
 
 ## Data Sources
 
