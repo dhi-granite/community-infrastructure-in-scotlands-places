@@ -1,6 +1,6 @@
 # Community Infrastructure in Scotland's Places
 
-![David Hume Institute logo](/assets/images/dhi_logo.png)
+<!-- ![David Hume Institute logo](/assets/images/dhi_logo.png) -->
 
 ## Contents
 
@@ -100,7 +100,7 @@ The seventh and final tab contains a scatter plot of the number of charities per
 - Download the files necessary to run the dashboard on your computer.
     - If you are familiar with git and have it installed on your computer, you can clone the repository by clicking the ‘Code’ button and copying then running the command displayed there in your command line.
     - Otherwise, you can download a zip file of the project by clicking the ‘Code’ button and then selecting ‘Download ZIP’.  
-- Install the dependencies using an installer of your choice. These are listed below, in the [Version Information section](#version-information).
+- Install the dependencies. These are listed below, in the [Version Information section](#version-information).
 - You should then be able to get the dashboard running locally by navigating to your command line and running the following command:
 
 ```
@@ -118,12 +118,12 @@ python3 index.py
 | Python | 3.7.10 |
 | Dash | 2.0.0 |
 | Dash Bootstrap Components | 1.0.0 |
+| Pandas | 1.3.2 |
 
 #### Other libraries used
 
 | Library | Version |
 | --- | --- |
-| Pandas | 1.3.2 |
 | Geopandas | 0.9.0 |
 | Folium | 0.12.0 |
 | Seaborn | 0.11.2 |
