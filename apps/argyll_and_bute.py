@@ -25,11 +25,10 @@ summary_table = go.Figure(data=[go.Table(
                 align='left'),
     cells=dict(values=[iz_info["Community"], iz_info["Mean SIMD Decile"], iz_info["Female life expectancy"], iz_info["Male life expectancy"], iz_info["Businesses per 1000 people"], iz_info["Local charities per 1000 people"], iz_info["Community spaces per 1000 people"]],
                fill_color='#DBF1FC',
-               align='left')),
-    
+               align='left')),  
 ])
 
- 
+
 scatter_charities_businesses = px.scatter(
     iz_info,
     x="Businesses per 1000 people",
@@ -56,7 +55,6 @@ scatter_charities_cspaces = px.scatter(
     color_continuous_scale='agsunset',
 )
 
-
 charities = px.bar(
     charities_decile,
     x="Mean SIMD Decile",
@@ -82,6 +80,9 @@ charities.add_annotation(dict(font=dict(color="black",size=12),
                             yref="paper"
                            ))
 
+charities.update_xaxes(range=[0, 11])
+charities.update_xaxes(tickvals=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10])                           
+
 charities.update_traces(
     hovertemplate="<br>".join([
         "SIMD Decile: %{x}",
@@ -89,9 +90,6 @@ charities.update_traces(
         "Range: %{customdata[0]}"
     ])
 )
-
-charities.update_xaxes(range=[0, 11])
-charities.update_xaxes(tickvals=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 
 businesses = px.bar(
@@ -116,6 +114,9 @@ businesses.add_annotation(dict(font=dict(color="black",size=12),
                             yref="paper"
                            ))
 
+businesses.update_xaxes(range=[0, 11])
+businesses.update_xaxes(tickvals=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10])                          
+
 businesses.update_traces(
     hovertemplate="<br>".join([
         "SIMD Decile: %{x}",
@@ -123,9 +124,6 @@ businesses.update_traces(
         "Range: %{customdata[0]}"
     ])
 )
-
-businesses.update_xaxes(range=[0, 11])
-businesses.update_xaxes(tickvals=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 
 community = px.bar(
@@ -137,6 +135,9 @@ community = px.bar(
     width=700,
     height=400,
 )
+
+community.update_xaxes(range=[0, 11])
+community.update_xaxes(tickvals=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 community.update_layout(margin=dict(t=150))
 
@@ -158,8 +159,6 @@ community.update_traces(
     ])
 )
 
-community.update_xaxes(range=[0, 11])
-community.update_xaxes(tickvals=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 map_la = html.Div(
                 children=[
@@ -171,8 +170,6 @@ map_la = html.Div(
                 style={"textAlign": "center"}
             )
 
-charities.update_xaxes(type='category')
-businesses.update_xaxes(type='category')
 
 layout = dbc.Container(
     [
@@ -213,7 +210,7 @@ layout = dbc.Container(
         ),
     ]
 )  
-     
+        
 @app.callback(
         Output("argyll-and-bute-card-content", "children"), 
         [Input("card-tabs", "active_tab")],
@@ -293,6 +290,6 @@ def tab_content(active_tab):
                         config = {'displayModeBar': False}
                     ),
                 ],
-            )
+            )  
                    
         return "no tab selected"
