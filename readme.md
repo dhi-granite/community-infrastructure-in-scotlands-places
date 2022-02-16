@@ -1,7 +1,5 @@
 # Community Infrastructure in Scotland's Places
 
-<!-- ![David Hume Institute logo](/assets/images/dhi_logo.png) -->
-
 ## Contents
 
 - [Introduction](#introduction)
