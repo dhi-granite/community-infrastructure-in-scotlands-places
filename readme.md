@@ -329,4 +329,4 @@ Scottish Government, 2020, licensed under the [Open Government Licence](https://
 Available [here](https://scotland.shinyapps.io/sg-scottish-household-survey-data-explorer/).
 
 ### Community spaces
-Data collected from Google Maps searches for “community centres”, “village halls”, “community halls”, “leisure centres”, “libraries”, “citizens advice bureau”.
+Data was collected from Google Maps searches for “community centres”, “village halls”, “community halls”, “leisure centres”, “libraries”, “citizens advice bureau”.
