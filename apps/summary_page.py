@@ -24,7 +24,7 @@ la_info_table = go.Figure(data=[go.Table(
 layout = dbc.Container(
 
     [
-        html.H3("Scottish Communities"),
+        html.H3("Community Infrastructure in Scotland's Places"),
         html.Hr(),
         html.Div(
             children=[
