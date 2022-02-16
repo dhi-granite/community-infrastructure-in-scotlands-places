@@ -308,6 +308,7 @@ Available [here](https://spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#
 
 ### Life expectancy data
 Contains data from the Scottish Public Health Observatory.
+
 Available [here](https://scotland.shinyapps.io/ScotPHO_profiles_tool/).
 
 ### Population estimates
