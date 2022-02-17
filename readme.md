@@ -61,37 +61,37 @@ At the top of each local authority page, I have included figures for the whole l
 #### Tab 1
 This tab contains a map of the local authority with information about each intermediate zone. This appears when you scroll over an intermediate zone on the map. There are also points plotted for community spaces, charities, development trusts, and mutual aid organisations. Below is the map for the City of Edinburgh, with charities selected, and the intermediate zone information for Balerno and Bonnington Village being displayed. The maps are stored in the assets folder.
 
-![A screenshot of the first tab for the City of Edinburgh page. There is a map, with options to see the locations of community spaces, charities, development trusts, or mutual aid organisations. The intermediate zone of Balerno and Bonnington Village is highlighted, with information on the intermediate zone displayed in a tooltip. The information is the name of the intermediate zone, the mean SIMD decile - 9, female life expectancy - 90, male life expectancy - 85, businesses per 1000 people - 37, and charities per 1000 people - 2.19.](/assets/images/tab_one.png)
+![A screenshot of the first tab for the City of Edinburgh page. There is a map, with options to see the locations of community spaces, charities, development trusts, or mutual aid organisations. The intermediate zone of Balerno and Bonnington Village is highlighted, with information on the intermediate zone displayed in a tooltip. The information is the name of the intermediate zone, the mean SIMD decile - 9, female life expectancy - 90, male life expectancy - 85, businesses per 1000 people - 37, and charities per 1000 people - 2.19.](/assets/images/tab_1.png)
 
 #### Tab 2
 The second tab contains a table with a row of information for each intermediate zone in the local authority in alphabetical order. Each row has the columns ‘Community’ or intermediate zone name, ‘Mean SIMD decile’ (the average of the SIMD deciles for the data zones make up the intermediate zone), ‘Female life expectancy’, ‘Male life expectancy’, ‘Businesses per 1000 people’, ‘Local charities per 1000 people’, and ‘Community spaces per 1000 people’. Below is a screenshot of the first part of the table for Inverclyde. 
 
-![A screenshot of the second tab for the Inverclyde page. There is a table with information on each intermediate zone displayed. The columns display the same information as in the tooltip on the map in tab 1.](/assets/images/tab_two.png)
+![A screenshot of the second tab for the Inverclyde page. There is a table with information on each intermediate zone displayed. The columns display the same information as in the tooltip on the map in tab 1.](/assets/images/tab_2.png)
 
 #### Tab 3
 The third tab shows the mean number of charities per 1000 people for each local authority in a bar plot. It is grouped by each SIMD decile within the local authority. Hovering over one of the bars allows you to see:  the SIMD decile, the mean number of charities per 1000 people, and the range (minimum and maximum) for the number of charities per 1000 people in that decile. Below is an example with the fourth SIMD decile in the City of Edinburgh highlighted. 
 
-![A screenshot of the third tab for the City of Edinburgh page. There is a bar plot, with the mean number of charities per 1000 people on the y axis and the SIMD decile of intermediate zones on the x axis. The fourth decile is highlighted, with a tooltip showing the decile, mean number of charities per 1000 people - 1.56, and the range for values in that decile - 0.47 to 3.16.](/assets/images/tab_three.png)
+![A screenshot of the third tab for the City of Edinburgh page. There is a bar plot, with the mean number of charities per 1000 people on the y axis and the SIMD decile of intermediate zones on the x axis. The fourth decile is highlighted, with a tooltip showing the decile, mean number of charities per 1000 people - 1.56, and the range for values in that decile - 0.47 to 3.16.](/assets/images/tab_3.png)
 
 #### Tab 4
 The fourth tab is similar to the third tab, but the number of businesses are measured instead of charities. This is the mean number of businesses per 1000 people in each SIMD decile. Below is an example with the second SIMD decile in the City of Edinburgh highlighted. 
 
-![A screenshot of the fourth tab for the City of Edinburgh page. There is a bar plot showing the mean number of businesses per 1000 people in each decile of the SIMD for the City of Edinburgh.](/assets/images/tab_four.png)
+![A screenshot of the fourth tab for the City of Edinburgh page. There is a bar plot showing the mean number of businesses per 1000 people in each decile of the SIMD for the City of Edinburgh.](/assets/images/tab_4.png)
 
 #### Tab 5
 The fifth tab is similar to the fourth tab, but the number of community spaces are measured instead of businesses. This is the mean number of community spaces per 1000 people in each SIMD decile. Below is an example with the third SIMD decile in Glasgow City highlighted. 
 
-![A screenshot of the fifth tab for Glasgow City. There is a bar plot showing the mean number of community spaces per 1000 people in each decile of the SIMD in Glasgow City.](/assets/images/tab_five.png)
+![A screenshot of the fifth tab for Glasgow City. There is a bar plot showing the mean number of community spaces per 1000 people in each decile of the SIMD in Glasgow City.](/assets/images/tab_5.png)
 
 #### Tab 6
 The sixth tab contains a scatter plot of the number of businesses per 1000 people and the number of charities per 1000 people in the selected local authority. The aim of this is to understand whether there is a relationship between these two variables. Each point on the graph represents an intermediate zone. Below is the scatterplot for Inverclyde, with the ‘Port Glasgow Upper, West and Central’ intermediate zone selected as an example.
 
-![A screenshot of the sixth tab for Inverclyde. There is a scatter plot showing the number of businesses per 1000 people against the number of charities per 1000 people in all intermediate zones in Inverclyde.](/assets/images/tab_six.png)
+![A screenshot of the sixth tab for Inverclyde. There is a scatter plot showing the number of businesses per 1000 people against the number of charities per 1000 people in all intermediate zones in Inverclyde.](/assets/images/tab_6.png)
 
 #### Tab 7
 The seventh and final tab contains a scatter plot of the number of charities per 1000 people and the number of community spaces per 1000 people. The aim of this is to understand whether there is a relationship between these variables within a local authority. Below is a screenshot of the scatter plot for Clackmannanshire, with the ‘Alloa South and East’ intermediate zone selected as an example.
 
-![A screenshot of the seventh tab for Clackmannanshire. There is a scatter plot showing the number of charities per 1000 people against the number of community spaces per 1000 people in all intermediate zones in Clackmannanshire.](/assets/images/tab_seven.png)
+![A screenshot of the seventh tab for Clackmannanshire. There is a scatter plot showing the number of charities per 1000 people against the number of community spaces per 1000 people in all intermediate zones in Clackmannanshire.](/assets/images/tab_7.png)
 
 ## Running Instructions
 
