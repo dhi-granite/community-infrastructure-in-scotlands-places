@@ -311,7 +311,7 @@ Contains data from the Scottish Public Health Observatory.
 
 Available [here](https://scotland.shinyapps.io/ScotPHO_profiles_tool/).
 
-### Population estimates
+### Mid-2020 small area population estimates
 Contains NRS data © Crown copyright and database right 2021.
 
 Available [here](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/2011-based-special-area-population-estimates/small-area-population-estimates).
