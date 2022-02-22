@@ -15,7 +15,7 @@ There is also a full table of contents in the top left corner of this document.
 
 ## Introduction
 
-This dashboard is part of a project run by the David Hume Institute (DHI), in partnership with the William Grant Foundation, and with the assistance of many other organisations and individuals across Scotland. The project aims to gain insights into communities through analysing open data. The way we chose to do this was to look at how community assets and infrastructure benefit the communities that they are located in. This includes community meeting spaces, businesses, local charities, mutual aid organisations, and development trusts. These types of assets are often left out of analyses of infrastructural inequalities but they can provide crucial support to communities.
+This dashboard is part of a project run by the [David Hume Institute (DHI)](https://davidhumeinstitute.org), in partnership with the William Grant Foundation, and with the assistance of many other organisations and individuals across Scotland. The project aims to gain insights into communities through analysing open data. The way we chose to do this was to look at how community assets and infrastructure benefit the communities that they are located in. This includes community meeting spaces, businesses, local charities, mutual aid organisations, and development trusts. These types of assets are often left out of analyses of infrastructural inequalities but they can provide crucial support to communities.
 
 Our key questions of interest were:
 
